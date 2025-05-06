@@ -1,0 +1,608 @@
+INFO 2025-04-13 20:41:23,293 services Created Razorpay order: order_QIaQyrYMo2ULxR for order #ORD250400001
+ERROR 2025-04-13 20:41:23,443 views Error initializing payment for Order #ORD250400001: 'block' tag with name 'extra_js' appears more than once
+INFO 2025-04-13 22:10:53,007 services Created Razorpay order: order_QIbxWEIsKFGcQn for order #ORD250400002
+ERROR 2025-04-13 22:10:53,031 views Error initializing payment for Order #ORD250400002: 'block' tag with name 'extra_js' appears more than once
+INFO 2025-04-13 22:12:20,453 services Created Razorpay order: order_QIbz3hEW89q5Cm for order #ORD250400004
+ERROR 2025-04-13 22:12:20,489 views Error initializing payment for Order #ORD250400004: 'block' tag with name 'extra_js' appears more than once
+INFO 2025-04-13 23:42:12,023 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['iW3osNmHXnJWtSAXITuCgCTkwu9F8o5Z2CMLea2lkZU3KofFMwUPPQXB59Krksft'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['upi'], 'customer_notes': ['']}>
+ERROR 2025-04-13 23:42:14,420 views Checkout error: name 'static' is not defined
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 448, in checkout
+    'image': request.build_absolute_uri(static('images/logo.png')),
+                                        ^^^^^^
+NameError: name 'static' is not defined
+INFO 2025-04-13 23:46:54,367 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['087LIvPow4pYEfw192dTS7Ez7KeIQD1aKOQ8uSv2TGA5VLbJdFD6rlIQGpPu2HbE'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-04-13 23:46:55,095 views Checkout error: name 'static' is not defined
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 448, in checkout
+    'image': request.build_absolute_uri(static('images/logo.jpg')),
+                                        ^^^^^^
+NameError: name 'static' is not defined
+INFO 2025-04-13 23:49:03,934 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['xGsBC4TdddCcnFN0gsFoLxrJonOkKdoEhmbYorzRAPNjEbsIk55BkLv0X2p6Why8'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-13 23:49:48,733 views Payment callback started
+ERROR 2025-04-13 23:49:48,794 views No user or email associated with order #ORD250400016
+INFO 2025-04-13 23:49:48,794 views Payment callback processed for order #ORD250400016
+INFO 2025-04-14 00:11:46,473 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['EznUCv1oHPihbIe0FEueFd1wuNGM5KSsof6hoSH24rtoseTIJhUrer5N3shyhO2W'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 00:13:43,670 views Payment callback started
+ERROR 2025-04-14 00:13:43,708 views No user or email associated with order #ORD250400017
+INFO 2025-04-14 00:13:43,708 views Payment callback processed for order #ORD250400017
+INFO 2025-04-14 00:19:58,625 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['Mt8jqvQe2cL78l2RrOlIRBVL6iIW0w9waFJmSvYGraFw2dprqmWwOvFsGlqnBpVH'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 00:20:24,206 views Payment callback started
+INFO 2025-04-14 00:20:24,251 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400018
+INFO 2025-04-14 00:20:24,269 views Generating PDF invoice...
+INFO 2025-04-14 00:20:24,359 utils PDF generated successfully, size: 3249 bytes
+INFO 2025-04-14 00:20:24,360 views Attempting to send email...
+INFO 2025-04-14 00:20:28,729 views Email send() returned: 1
+INFO 2025-04-14 00:20:28,729 views Order confirmation email sent for order #ORD250400018
+INFO 2025-04-14 00:20:28,731 views Payment callback processed for order #ORD250400018
+INFO 2025-04-14 00:43:14,820 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['dkf1262H11BMDrg8NH7RY9bH97tU0eclBwQ4u6a9qZvbxjDIMfIFV3VoJablB7Yw'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 00:43:45,312 views Payment callback started
+INFO 2025-04-14 00:43:45,384 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400019
+INFO 2025-04-14 00:43:45,402 views Generating PDF invoice...
+INFO 2025-04-14 00:43:45,584 utils PDF generated successfully, size: 3244 bytes
+INFO 2025-04-14 00:43:45,585 views Attempting to send email...
+INFO 2025-04-14 00:43:51,391 views Email send() returned: 1
+INFO 2025-04-14 00:43:51,391 views Order confirmation email sent for order #ORD250400019
+INFO 2025-04-14 00:43:51,395 views Payment callback processed for order #ORD250400019
+INFO 2025-04-14 01:04:15,466 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['JDqglyskpVifCndUmJRws9QBIhz9IYTZ7P1jNyAMOTcEwfAulhskp3AiikhAjRFa'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 01:04:44,022 views Payment callback started
+INFO 2025-04-14 01:04:44,090 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400020
+INFO 2025-04-14 01:04:44,105 views Generating PDF invoice...
+INFO 2025-04-14 01:04:44,846 utils PDF generated successfully, size: 6429 bytes
+INFO 2025-04-14 01:04:44,846 views Attempting to send email...
+INFO 2025-04-14 01:04:49,801 views Email send() returned: 1
+INFO 2025-04-14 01:04:49,801 views Order confirmation email sent for order #ORD250400020
+INFO 2025-04-14 01:04:49,808 views Payment callback processed for order #ORD250400020
+INFO 2025-04-14 01:19:33,378 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['ZJlTfM8KmJ0fFTwQnOe6rCtO7RwcKy9NnVWWHMgcLHUEzLTqmmPUowdvHUeDlrVY'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 01:19:58,732 views Payment callback started
+INFO 2025-04-14 01:19:58,823 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400021
+INFO 2025-04-14 01:19:58,846 views Generating PDF invoice...
+ERROR 2025-04-14 01:19:58,858 utils Error in generate_invoice_pdf: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\utils.py", line 14, in generate_invoice_pdf
+    template = get_template(template_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+ERROR 2025-04-14 01:19:59,136 views PDF generation failed
+ERROR 2025-04-14 01:19:59,144 views Failed to send email for order #ORD250400021: Failed to generate PDF invoice
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 788, in send_order_confirmation_email
+    raise Exception("Failed to generate PDF invoice")
+Exception: Failed to generate PDF invoice
+INFO 2025-04-14 01:19:59,146 views Payment callback processed for order #ORD250400021
+INFO 2025-04-14 01:21:31,217 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['B2ah4RoNiYlNgeFejxnIdWCpkzBmS6HHZeLkwRwfHWfca62Oi5YwaQm6UCjNtZtS'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 01:21:57,335 views Payment callback started
+INFO 2025-04-14 01:21:57,413 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400022
+INFO 2025-04-14 01:21:57,430 views Generating PDF invoice...
+ERROR 2025-04-14 01:21:57,472 utils Error in generate_invoice_pdf: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\utils.py", line 14, in generate_invoice_pdf
+    template = get_template(template_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+ERROR 2025-04-14 01:21:57,474 views PDF generation failed
+ERROR 2025-04-14 01:21:57,474 views Failed to send email for order #ORD250400022: Failed to generate PDF invoice
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 788, in send_order_confirmation_email
+    raise Exception("Failed to generate PDF invoice")
+Exception: Failed to generate PDF invoice
+INFO 2025-04-14 01:21:57,474 views Payment callback processed for order #ORD250400022
+INFO 2025-04-14 01:23:57,371 views Payment callback started
+INFO 2025-04-14 01:23:57,456 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400022
+INFO 2025-04-14 01:23:57,468 views Generating PDF invoice...
+ERROR 2025-04-14 01:23:57,482 utils Error in generate_invoice_pdf: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\utils.py", line 14, in generate_invoice_pdf
+    template = get_template(template_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+ERROR 2025-04-14 01:23:57,487 views PDF generation failed
+ERROR 2025-04-14 01:23:57,487 views Failed to send email for order #ORD250400022: Failed to generate PDF invoice
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 788, in send_order_confirmation_email
+    raise Exception("Failed to generate PDF invoice")
+Exception: Failed to generate PDF invoice
+INFO 2025-04-14 01:23:57,487 views Payment callback processed for order #ORD250400022
+INFO 2025-04-14 01:25:06,881 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['W5jj1Zubxr3F4BGiZHCrxSzPRpHrPC78khUmtZCDWpX4Yt3SYfdfuMjwrspSqvTj'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 01:25:30,709 views Payment callback started
+INFO 2025-04-14 01:25:30,778 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400023
+INFO 2025-04-14 01:25:30,781 views Generating PDF invoice...
+ERROR 2025-04-14 01:25:30,840 utils Error in generate_invoice_pdf: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\utils.py", line 14, in generate_invoice_pdf
+    template = get_template(template_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[order.billing_address.name' from '[order.billing_address.name'
+ERROR 2025-04-14 01:25:30,843 views PDF generation failed
+ERROR 2025-04-14 01:25:30,845 views Failed to send email for order #ORD250400023: Failed to generate PDF invoice
+Traceback (most recent call last):
+  File "D:\Django\bhavi_fashion (2)\bhavi_fashion\orders\views.py", line 788, in send_order_confirmation_email
+    raise Exception("Failed to generate PDF invoice")
+Exception: Failed to generate PDF invoice
+INFO 2025-04-14 01:25:30,845 views Payment callback processed for order #ORD250400023
+INFO 2025-04-14 01:26:27,068 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['9I3ckS1g3EcGTKX1rH9iO7st7B04HIRWxUEfMS9IsC65NCkBqfK6L1caHEIviBD7'], 'shipping_address': ['2'], 'same_billing_address': ['on'], 'billing_address': ['2'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 01:26:51,146 views Payment callback started
+INFO 2025-04-14 01:26:51,216 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400024
+INFO 2025-04-14 01:26:51,226 views Generating PDF invoice...
+INFO 2025-04-14 01:26:54,909 utils PDF generated successfully, size: 6349 bytes
+INFO 2025-04-14 01:26:54,909 views Attempting to send email...
+INFO 2025-04-14 01:27:00,133 views Email send() returned: 1
+INFO 2025-04-14 01:27:00,142 views Order confirmation email sent for order #ORD250400024
+INFO 2025-04-14 01:27:00,142 views Payment callback processed for order #ORD250400024
+INFO 2025-04-14 08:00:55,710 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['xBif2CxmR9cM8sdkESj2FhMztnt2sWfCEC9xY6sPWnAsuBBxgzgGoXeu3GK0Zteg'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['upi'], 'customer_notes': ['']}>
+INFO 2025-04-14 08:01:28,663 views Payment callback started
+ERROR 2025-04-14 08:01:28,734 views No user or email associated with order #ORD250400025
+INFO 2025-04-14 08:01:28,734 views Payment callback processed for order #ORD250400025
+INFO 2025-04-14 08:03:09,340 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['t7AgJWTKUN09Ssm95bGkAolSiaSB9ndvA8ryFqOdZ1oPeBKmHSDYj4NNSt9zGUc9'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['netbanking'], 'customer_notes': ['']}>
+INFO 2025-04-14 08:03:37,840 views Payment callback started
+ERROR 2025-04-14 08:03:37,909 views No user or email associated with order #ORD250400026
+INFO 2025-04-14 08:03:37,911 views Payment callback processed for order #ORD250400026
+INFO 2025-04-14 09:28:04,570 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['9cqTjEXyRTdtfwGrSs6Cwqbr864V3eAukoNz4eKVRVu76KfasuatypUXVR4Y2rEz'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 09:28:35,666 views Payment callback started
+ERROR 2025-04-14 09:28:35,752 views No user or email associated with order #ORD250400027
+INFO 2025-04-14 09:28:35,752 views Payment callback processed for order #ORD250400027
+INFO 2025-04-14 09:47:54,702 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['RB0bXAHo6ywN6IPl6nkAl5OOROBcqxzJWHggBQDb9d0Hq3v68dVsoL4O5dFkfh6b'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['cod'], 'customer_notes': ['']}>
+INFO 2025-04-14 09:47:54,726 views Preparing to send email to shiv@gmail.com for order #ORD250400028
+INFO 2025-04-14 09:47:54,746 views Generating PDF invoice...
+INFO 2025-04-14 09:47:55,226 utils PDF generated successfully, size: 6342 bytes
+INFO 2025-04-14 09:47:55,226 views Attempting to send email...
+INFO 2025-04-14 09:47:58,975 views Email send() returned: 1
+INFO 2025-04-14 09:47:58,976 views Order confirmation email sent for order #ORD250400028
+INFO 2025-04-14 09:49:45,652 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['2VPRefb5I1d2R0Kx3RHcqLgEaEObH6Mt715WSv7SLGHWblqi5Hi4trwEo3SjwQjV'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['netbanking'], 'customer_notes': ['']}>
+INFO 2025-04-14 09:50:13,133 views Payment callback started
+INFO 2025-04-14 09:50:13,155 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400029
+INFO 2025-04-14 09:50:13,158 views Generating PDF invoice...
+INFO 2025-04-14 09:50:13,491 utils PDF generated successfully, size: 6363 bytes
+INFO 2025-04-14 09:50:13,492 views Attempting to send email...
+INFO 2025-04-14 09:50:18,741 views Email send() returned: 1
+INFO 2025-04-14 09:50:18,741 views Order confirmation email sent for order #ORD250400029
+INFO 2025-04-14 09:50:18,741 views Payment callback processed for order #ORD250400029
+INFO 2025-04-14 09:58:17,437 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['hvDpUatjQKKKKGjAFgfpocowuzKBTTsAmBTuyqp6TpeE41ZlH6QhrSEwIYOJIDZ2'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['upi'], 'customer_notes': ['']}>
+INFO 2025-04-14 09:58:40,050 views Payment callback started
+INFO 2025-04-14 09:58:40,092 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400030
+INFO 2025-04-14 09:58:40,096 views Generating PDF invoice...
+INFO 2025-04-14 09:58:40,592 utils PDF generated successfully, size: 6429 bytes
+INFO 2025-04-14 09:58:40,592 views Attempting to send email...
+INFO 2025-04-14 09:58:44,332 views Email send() returned: 1
+INFO 2025-04-14 09:58:44,332 views Order confirmation email sent for order #ORD250400030
+INFO 2025-04-14 09:58:44,332 views Payment callback processed for order #ORD250400030
+INFO 2025-04-14 10:27:33,267 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['y2XX1CRQI3udbrASyJEOym3J5s6J2uuC1YyBpyYL0DHiWAD3X3fIvdEjNydI0mmO'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 10:28:12,866 views Payment callback started
+ERROR 2025-04-14 10:28:12,893 views No user or email associated with order #ORD250400031
+INFO 2025-04-14 10:28:12,893 views Payment callback processed for order #ORD250400031
+INFO 2025-04-14 10:30:11,070 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['tkt2XG2kbOiJwuAqspsGdo0dN9HqfhAjMenXEjMA2m4efxWs87CCxDjZBG2pmRi7'], 'shipping_address': ['4'], 'same_billing_address': ['on'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 10:30:38,500 views Payment callback started
+INFO 2025-04-14 10:30:38,521 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400032
+INFO 2025-04-14 10:30:38,524 views Generating PDF invoice...
+INFO 2025-04-14 10:30:38,975 utils PDF generated successfully, size: 6360 bytes
+INFO 2025-04-14 10:30:38,975 views Attempting to send email...
+INFO 2025-04-14 10:30:43,218 views Email send() returned: 1
+INFO 2025-04-14 10:30:43,219 views Order confirmation email sent for order #ORD250400032
+INFO 2025-04-14 10:30:43,219 views Payment callback processed for order #ORD250400032
+INFO 2025-04-14 11:00:23,459 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['N2F3DzVY3qKjmQy18SMRICVG4YqSCl8OmleyxiNd0BHLGNiuW7zrOxteu8I9v4ku'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 11:02:18,709 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['0YZPwtuc6zgkHPIdG44CI9lRYUp3GCZYzhykqcmr3KdM1MsGujRcO4Tpo4HkzlbE'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 11:02:47,035 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['0YZPwtuc6zgkHPIdG44CI9lRYUp3GCZYzhykqcmr3KdM1MsGujRcO4Tpo4HkzlbE'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 11:03:09,782 views Payment callback started
+INFO 2025-04-14 11:03:09,854 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400035
+INFO 2025-04-14 11:03:09,870 views Generating PDF invoice...
+INFO 2025-04-14 11:03:10,487 utils PDF generated successfully, size: 6368 bytes
+INFO 2025-04-14 11:03:10,487 views Attempting to send email...
+INFO 2025-04-14 11:03:14,963 views Email send() returned: 1
+INFO 2025-04-14 11:03:14,963 views Order confirmation email sent for order #ORD250400035
+INFO 2025-04-14 11:03:14,963 views Payment callback processed for order #ORD250400035
+INFO 2025-04-14 11:11:37,051 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['msSLZguugMXBcIrk0Mzd4fRKbd049ULmVLrgTZmJdXU3wFbNO1mNaapiBnil2DX2'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-14 11:24:08,806 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['NccEJcwnMULDDZugHsT8eYTec1Okwd1vmvL9DVoCJ5I5XWeJvHGIkTrMCb6BpWdb'], 'shipping_address': ['3'], 'same_billing_address': ['on'], 'billing_address': ['3'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-15 00:02:50,421 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['JVIN3ed0PwARY5u5NH3YqdWC13h8e8vSwuVlLxXJpoKodTEQ3O7VFeZKKH6QLL35'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-15 00:03:16,308 views Payment callback started
+INFO 2025-04-15 00:03:16,424 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400001
+INFO 2025-04-15 00:03:16,495 views Generating PDF invoice...
+INFO 2025-04-15 00:03:17,956 utils PDF generated successfully, size: 6914 bytes
+INFO 2025-04-15 00:03:17,956 views Attempting to send email...
+INFO 2025-04-15 00:03:22,539 views Email send() returned: 1
+INFO 2025-04-15 00:03:22,541 views Order confirmation email sent for order #ORD250400001
+INFO 2025-04-15 00:03:22,543 views Payment callback processed for order #ORD250400001
+INFO 2025-04-15 00:04:44,871 views Order ORD250400001 tracked by uvgothadiya1812@gmail.com
+INFO 2025-04-15 00:05:36,214 views Order ORD250400001 tracked by uvgothadiya1812@gmail.com
+INFO 2025-04-15 00:13:29,916 views Order ORD250400001 tracked by uvgothadiya1812@gmail.com
+INFO 2025-04-15 09:56:49,023 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['VPL8QssuGVa2z5dCPF74mQeBnGO1bNg9IoYGyLcdgNkzOTnn5Mb1BRhJ6kDJIqOm'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-15 09:57:16,282 views Payment callback started
+INFO 2025-04-15 09:57:16,345 views Preparing to send email to uvgothadiya1812@gmail.com for order #ORD250400002
+INFO 2025-04-15 09:57:16,365 views Generating PDF invoice...
+INFO 2025-04-15 09:57:16,989 utils PDF generated successfully, size: 6370 bytes
+INFO 2025-04-15 09:57:16,989 views Attempting to send email...
+INFO 2025-04-15 09:57:21,583 views Email send() returned: 1
+INFO 2025-04-15 09:57:21,583 views Order confirmation email sent for order #ORD250400002
+INFO 2025-04-15 09:57:21,583 views Payment callback processed for order #ORD250400002
+INFO 2025-04-15 09:57:47,858 views Order ORD250400001 tracked by uvgothadiya1812@gmail.com
+INFO 2025-04-15 22:54:22,490 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['OGP2mLZAdrZKgqKFTogQclcEXmr8shekjVi7TM0D0GdeODQ3jsEKUZs0y8DggPxi'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-15 22:54:46,405 views Payment callback started
+INFO 2025-04-15 22:54:46,482 views Preparing to send email to xabc52520@gmail.com for order #ORD250400001
+INFO 2025-04-15 22:54:46,491 views Generating PDF invoice...
+INFO 2025-04-15 22:54:47,727 utils PDF generated successfully, size: 6319 bytes
+INFO 2025-04-15 22:54:47,728 views Attempting to send email...
+INFO 2025-04-15 22:54:53,233 views Email send() returned: 1
+INFO 2025-04-15 22:54:53,234 views Order confirmation email sent for order #ORD250400001
+INFO 2025-04-15 22:54:53,235 views Payment callback processed for order #ORD250400001
+INFO 2025-04-15 22:55:34,301 views Order ORD250400001 tracked by xabc52520@gmail.com
+INFO 2025-04-16 09:57:59,801 views Order ORD250400001 tracked by xabc52520@gmail.com
+INFO 2025-04-16 21:26:42,029 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['ZiJLPSAfPkUDokeOdL6GgwD4MAvmotmmoXnKlIYNfUkzl5WUm4J0j5JcFTlDUjZb'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['cod'], 'customer_notes': ['']}>
+INFO 2025-04-16 21:26:42,083 views Preparing to send email to xabc52520@gmail.com for order #ORD250400002
+INFO 2025-04-16 21:26:42,087 views Generating PDF invoice...
+INFO 2025-04-16 21:26:42,283 utils PDF generated successfully, size: 5273 bytes
+INFO 2025-04-16 21:26:42,284 views Attempting to send email...
+INFO 2025-04-16 21:26:46,628 views Email send() returned: 1
+INFO 2025-04-16 21:26:46,628 views Order confirmation email sent for order #ORD250400002
+INFO 2025-04-16 21:26:59,024 views Order ORD250400001 tracked by xabc52520@gmail.com
+INFO 2025-04-16 21:27:21,548 views Order ORD250400002 tracked by xabc52520@gmail.com
+INFO 2025-04-16 21:27:46,052 views Order ORD250400002 tracked by xabc52520@gmail.com
+INFO 2025-04-17 08:48:27,203 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-17 08:51:42,301 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-17 08:52:53,830 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-17 08:53:44,933 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-17 08:55:40,622 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-17 08:59:13,324 views Checkout POST received: <QueryDict: {'payment_method': ['card']}>
+INFO 2025-04-28 19:16:26,056 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['qgMFGqvrK1OaGrTmQIN0iLjIdH5uKwq6j55hjw3xzJ6U7zDUcG26o8qJId9Zh8AO'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-04-28 19:16:26,176 views Checkout error: HTTPSConnectionPool(host='api.razorpay.com', port=443): Max retries exceeded with url: /v1/orders (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002092BED64E0>: Failed to resolve 'api.razorpay.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002092BED64E0>: Failed to resolve 'api.razorpay.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Max retries exceeded with url: /v1/orders (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002092BED64E0>: Failed to resolve 'api.razorpay.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shrushti\Desktop\bhavi_fashion\bhavi_fashion\orders\views.py", line 452, in checkout
+    razorpay_order = client.order.create({
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Max retries exceeded with url: /v1/orders (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002092BED64E0>: Failed to resolve 'api.razorpay.com' ([Errno 11001] getaddrinfo failed)"))
+INFO 2025-04-28 19:16:59,539 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['qgMFGqvrK1OaGrTmQIN0iLjIdH5uKwq6j55hjw3xzJ6U7zDUcG26o8qJId9Zh8AO'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-28 19:17:04,349 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['qgMFGqvrK1OaGrTmQIN0iLjIdH5uKwq6j55hjw3xzJ6U7zDUcG26o8qJId9Zh8AO'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-28 19:17:09,724 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['qgMFGqvrK1OaGrTmQIN0iLjIdH5uKwq6j55hjw3xzJ6U7zDUcG26o8qJId9Zh8AO'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-28 19:19:20,020 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['cKdPTQAH4ko50MV1rFZL6BEqBbbi9GBN5zwrwW8NT2GPrUFzNDeRcYLr6HfNGiLv'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-04-28 19:19:45,913 views Payment callback started
+INFO 2025-04-28 19:19:45,953 views Preparing to send email to xabc52520@gmail.com for order #ORD250400005
+INFO 2025-04-28 19:19:45,957 views Generating PDF invoice...
+INFO 2025-04-28 19:19:46,379 utils PDF generated successfully, size: 5255 bytes
+INFO 2025-04-28 19:19:46,380 views Attempting to send email...
+INFO 2025-04-28 19:19:50,455 views Email send() returned: 1
+INFO 2025-04-28 19:19:50,455 views Order confirmation email sent for order #ORD250400005
+INFO 2025-04-28 19:19:50,455 views Payment callback processed for order #ORD250400005
+INFO 2025-05-01 09:06:27,914 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['dzeMv8pt5AhGoZ6jhsmqjMyqkthmc6odleqMg7NQAiCY25fLZ4gu1GpCqOTIffMF'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-05-01 09:06:57,330 views Payment callback started
+INFO 2025-05-01 09:06:57,389 views Preparing to send email to xabc52520@gmail.com for order #ORD250500001
+INFO 2025-05-01 09:06:57,399 views Generating PDF invoice...
+INFO 2025-05-01 09:06:57,696 utils PDF generated successfully, size: 5495 bytes
+INFO 2025-05-01 09:06:57,697 views Attempting to send email...
+INFO 2025-05-01 09:07:03,667 views Email send() returned: 1
+INFO 2025-05-01 09:07:03,667 views Order confirmation email sent for order #ORD250500001
+INFO 2025-05-01 09:07:03,668 views Payment callback processed for order #ORD250500001
+INFO 2025-05-02 10:02:29,504 views Order ORD250500001 tracked by xabc52520@gmail.com
+INFO 2025-05-02 10:56:50,915 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['Q0YLEg3WjQO194rczw2PAwobtDPQZhAEKCxYFKgWuqJbQ2vlEvxdaxhUw2zXeNmh'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['cod'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:56:50,916 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 10:57:06,458 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['Q0YLEg3WjQO194rczw2PAwobtDPQZhAEKCxYFKgWuqJbQ2vlEvxdaxhUw2zXeNmh'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:57:06,459 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 10:57:15,376 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['KSXt6hlioSWGosYK8pVKvVYxjrj4o4gwEuwG7LyizsRQ5q2Tdoq85WRgmQ3bDA29'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:57:15,377 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 10:57:40,316 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['z2YBtol78aaC9gdkMks5SPnPqDC2AH0KeVl60PeWvyAdPFfDYaHl1OYozDgdAa9I'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:57:40,317 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 10:57:56,444 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['z2YBtol78aaC9gdkMks5SPnPqDC2AH0KeVl60PeWvyAdPFfDYaHl1OYozDgdAa9I'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:57:56,445 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 10:58:18,714 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['6PE6szA0GaNAoFqyZYW9nI2ntykUmqqm0rdjt3N0RKIK5DuH4XrxXJV6wX41BWcZ'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+ERROR 2025-05-02 10:58:18,716 views Checkout error: Order() got unexpected keyword arguments: 'coupon'
+Traceback (most recent call last):
+  File "D:\project\final_project\bhavi_fashion\orders\views.py", line 395, in checkout
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shrushti\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Order() got unexpected keyword arguments: 'coupon'
+INFO 2025-05-02 11:02:21,627 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['YPaXrcM49sbpUeYgHrEJBHnu7KkuaLwCSrJasGZ4k26zBc2pMq97bIgda94Bphif'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-05-02 11:02:46,381 views Payment callback started
+ERROR 2025-05-02 11:02:46,471 views Payment processing error: 'Order' object has no attribute 'coupon'
+INFO 2025-05-02 11:03:30,977 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['TA64FN5IE9t6hAIiGWxEWziHQhyxUTaqNcFhGhiIPJogYyMrLV22wAbqTGiE9pW3'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-05-02 11:03:53,971 views Payment callback started
+ERROR 2025-05-02 11:03:54,051 views Payment processing error: 'Order' object has no attribute 'coupon'
+INFO 2025-05-02 11:05:03,354 views Payment callback started
+INFO 2025-05-02 11:05:03,440 views Preparing to send email to xabc52520@gmail.com for order #ORD250500004
+INFO 2025-05-02 11:05:03,489 views Generating PDF invoice...
+INFO 2025-05-02 11:05:03,736 utils PDF generated successfully, size: 5340 bytes
+INFO 2025-05-02 11:05:03,736 views Attempting to send email...
+INFO 2025-05-02 11:05:08,822 views Email send() returned: 1
+INFO 2025-05-02 11:05:08,823 views Order confirmation email sent for order #ORD250500004
+INFO 2025-05-02 11:05:08,823 views Payment callback processed for order #ORD250500004
+INFO 2025-05-02 11:05:19,520 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['57ED8SeklsV6hHJHFG8uf1oHaLoCBkbcZJdQ9mrkw2QgYFNQKFDSP2hqda8JQQXP'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-05-02 11:05:42,517 views Payment callback started
+INFO 2025-05-02 11:05:42,581 views Preparing to send email to xabc52520@gmail.com for order #ORD250500005
+INFO 2025-05-02 11:05:42,588 views Generating PDF invoice...
+INFO 2025-05-02 11:05:42,768 utils PDF generated successfully, size: 5339 bytes
+INFO 2025-05-02 11:05:42,769 views Attempting to send email...
+INFO 2025-05-02 11:05:47,542 views Email send() returned: 1
+INFO 2025-05-02 11:05:47,542 views Order confirmation email sent for order #ORD250500005
+INFO 2025-05-02 11:05:47,543 views Payment callback processed for order #ORD250500005
+INFO 2025-05-02 11:06:09,088 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['8vEbKTyjK0foUfiZETjQXvudBs6CopJF27doLnLjVAayBdm8JSOexwnWERQJDVvi'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['cod'], 'customer_notes': ['']}>
+INFO 2025-05-02 11:06:09,126 views Preparing to send email to xabc52520@gmail.com for order #ORD250500006
+INFO 2025-05-02 11:06:09,131 views Generating PDF invoice...
+INFO 2025-05-02 11:06:09,341 utils PDF generated successfully, size: 5348 bytes
+INFO 2025-05-02 11:06:09,342 views Attempting to send email...
+INFO 2025-05-02 11:06:14,154 views Email send() returned: 1
+INFO 2025-05-02 11:06:14,154 views Order confirmation email sent for order #ORD250500006
+INFO 2025-05-02 11:33:11,586 views Checkout POST received: <QueryDict: {'csrfmiddlewaretoken': ['8hhPuYIYuEKwC253fNtGbZGfZjIGgcjwRA0e8QL4k2muj60ZdUYxoVBfhdwS5Hvc'], 'shipping_address': ['1'], 'same_billing_address': ['on'], 'billing_address': ['1'], 'payment_method': ['card'], 'customer_notes': ['']}>
+INFO 2025-05-02 11:33:33,918 views Payment callback started
+INFO 2025-05-02 11:33:34,004 views Preparing to send email to xabc52520@gmail.com for order #ORD250500007
+INFO 2025-05-02 11:33:34,018 views Generating PDF invoice...
+INFO 2025-05-02 11:33:34,303 utils PDF generated successfully, size: 5503 bytes
+INFO 2025-05-02 11:33:34,304 views Attempting to send email...
+INFO 2025-05-02 11:33:40,051 views Email send() returned: 1
+INFO 2025-05-02 11:33:40,051 views Order confirmation email sent for order #ORD250500007
+INFO 2025-05-02 11:33:40,051 views Payment callback processed for order #ORD250500007
+WARNING 2025-05-06 19:26:47,658 views Failed tracking attempt for order ORD250400001 with email xabc52520@gmail.com
