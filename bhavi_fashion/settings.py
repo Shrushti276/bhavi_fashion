@@ -10,8 +10,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-bhavi-fashion-dev-key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-# ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
+# ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
@@ -135,16 +135,24 @@ WSGI_APPLICATION = 'bhavi_fashion.wsgi.application'
 SHIPROCKET_TOKEN = 'your_shiprocket_token'
 
 # Database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': os.environ.get('DB_NAME', 'bhaviindiafashion'),
+#         'USER': os.environ.get('DB_USER', 'Srushti'),
+#         'PASSWORD': os.environ.get('DB_PASSWORD', 'shrushti@0227'),
+#         'HOST': os.environ.get('DB_HOST', 'localhost'),
+#         'PORT': os.environ.get('DB_PORT', '3307'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('DB_NAME', 'bhaviindiafashion'),
-        'USER': os.environ.get('DB_USER', 'Srushti'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'shrushti@0227'),
-        'HOST': os.environ.get('DB_HOST', 'localhost'),
-        'PORT': os.environ.get('DB_PORT', '3307'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / "db.sqlite3",
     }
 }
+
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [

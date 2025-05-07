@@ -36026,3 +36026,15 @@ INFO 2025-05-06 19:26:47,675 basehttp "POST /orders/order/track/ HTTP/1.1" 200 2
 INFO 2025-05-06 19:26:52,007 basehttp "GET /orders/history/ HTTP/1.1" 200 36741
 INFO 2025-05-06 19:26:55,150 basehttp "GET /orders/order/track/ HTTP/1.1" 200 28273
 INFO 2025-05-06 19:27:01,146 basehttp "GET /orders/history/ HTTP/1.1" 200 36741
+INFO 2025-05-07 16:33:58,823 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 16:34:06,985 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 16:34:12,003 basehttp "GET / HTTP/1.1" 200 26822
+INFO 2025-05-07 16:34:13,189 basehttp "GET / HTTP/1.1" 200 26822
+INFO 2025-05-07 16:47:05,285 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 16:47:16,005 basehttp "GET / HTTP/1.1" 200 26822
+INFO 2025-05-07 16:47:16,173 basehttp - Broken pipe from ('127.0.0.1', 55017)
+INFO 2025-05-07 16:47:20,046 basehttp "GET / HTTP/1.1" 200 26822
+INFO 2025-05-07 16:47:24,613 basehttp "GET /products/ HTTP/1.1" 200 36357
+INFO 2025-05-07 16:49:29,676 basehttp "POST /accounts/login/ HTTP/1.1" 200 25213
+INFO 2025-05-07 16:49:33,320 basehttp "GET /accounts/password_reset/ HTTP/1.1" 200 24351
+INFO 2025-05-07 16:49:35,026 basehttp "GET /accounts/login/ HTTP/1.1" 200 25106
