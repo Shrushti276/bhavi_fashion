@@ -1,1 +1,1 @@
-web: gunicorn bhaviindiafashion.wsgi
+web: gunicorn bhavi_fashion.wsgi
